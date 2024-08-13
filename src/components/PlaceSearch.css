@@ -1,0 +1,11 @@
+.title {
+    font-size: 24px; 
+    margin: 0; 
+    text-align: center;
+  }
+  .input{
+    text-align: center;
+  }
+  input {
+    margin-right: 5px;
+  }
