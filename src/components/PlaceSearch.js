@@ -26,7 +26,7 @@ const PlaceSearch = () => {
         }
     
 
-      const response = await axios.post('http://localhost:8070/api/v1/places', requestData);
+      const response = await axios.post('https://nearby-places-production.up.railway.app/api/v1/places', requestData);
       console.log('API Response:', response.data);
       setPlaces(response.data.results); 
       setError(null);
